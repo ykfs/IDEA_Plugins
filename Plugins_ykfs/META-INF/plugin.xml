@@ -1,0 +1,59 @@
+<idea-plugin version="2">
+  <id>com.yourcompany.unique.plugin.id</id>
+  <name>Plugins_ykfs</name>
+  <version>1.0</version>
+  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">ykfs</vendor>
+
+  <description><![CDATA[
+      1.UpperCase.<br>
+      2.Want to Generate With Final, but not work.<br>
+    ]]></description>
+
+  <change-notes><![CDATA[
+    ]]>
+  </change-notes>
+
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="131"/>
+
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <!-- Add your actions here -->
+      <!--<action id="Plugins_ykfs.GenerateGroup.OverrideMethodsWithFinal"-->
+              <!--class="main.java.com.ykfs.plugins.generate.OverrideMethodsWithFinal"-->
+              <!--text="Override Methods With Final"-->
+              <!--description="Override Methods With Final">-->
+          <!--<add-to-group group-id="GenerateGroup" anchor="last"/>-->
+      <!--</action>-->
+      <!--<action id="Plugins_ykfs.GenerateGroup.GenerateSetterWithFinal"-->
+              <!--class="main.java.com.ykfs.plugins.generate.GenerateSetterWithFinal"-->
+              <!--text="Generate Setter With Final"-->
+              <!--description="Generate Setter With Final">-->
+          <!--<add-to-group group-id="GenerateGroup" anchor="last"/>-->
+      <!--</action>-->
+      <action id="Plugins_ykfs.RefactoringMenu.UpperCase"
+              class="main.java.com.ykfs.plugins.upperlowercase.UpperCaseAction"
+              text="UpperCase"
+              description="UpperCase">
+          <add-to-group group-id="RefactoringMenu" anchor="last"/>
+      </action>
+  </actions>
+
+</idea-plugin>
