@@ -1,12 +1,13 @@
 <idea-plugin version="2">
-  <id>com.yourcompany.unique.plugin.id</id>
+  <id>com.ykfs.plugin.generate</id>
   <name>Plugins_ykfs</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">ykfs</vendor>
+  <vendor email="ykfs123@sina.com" url="https://github.com/ykfs/IDEA_Plugins">GenerateConstructorWithoutLine</vendor>
 
   <description><![CDATA[
-      1.UpperCase.<br>
+      1.UpperCase. (delete)<br>
       2.Want to Generate With Final, but not work.<br>
+      3.Constructor Without Line
     ]]></description>
 
   <change-notes><![CDATA[
