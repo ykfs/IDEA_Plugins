@@ -48,12 +48,18 @@
               <!--description="Generate Setter With Final">-->
           <!--<add-to-group group-id="GenerateGroup" anchor="last"/>-->
       <!--</action>-->
-      <action id="Plugins_ykfs.RefactoringMenu.UpperCase"
-              class="main.java.com.ykfs.plugins.upperlowercase.UpperCaseAction"
-              text="UpperCase"
-              description="UpperCase">
-          <add-to-group group-id="RefactoringMenu" anchor="last"/>
-      </action>
+      <!--<action id="Plugins_ykfs.RefactoringMenu.UpperCase"-->
+              <!--class="main.java.com.ykfs.plugins.upperlowercase.UpperCaseAction"-->
+              <!--text="UpperCase"-->
+              <!--description="UpperCase">-->
+          <!--<add-to-group group-id="RefactoringMenu" anchor="last"/>-->
+      <!--</action>-->
+    <action id="Plugins_ykfs.GenerateGroup.ConstructorWithoutLine"
+            class="main.java.com.ykfs.plugins.generate.ConstructorWithoutLine"
+            text="Constructor Without Line"
+            description="Constructor Without Line">
+      <add-to-group group-id="GenerateGroup" anchor="last"/>
+    </action>
   </actions>
 
 </idea-plugin>
